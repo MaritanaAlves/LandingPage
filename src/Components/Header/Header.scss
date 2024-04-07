@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+#header {
+  height: 2000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  margin-top: 50px;
+  font-family: "Reddit Mono", monospace;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  
+}
+
+.menu a {
+  color: #606C38;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  font-weight: bold;
+}
